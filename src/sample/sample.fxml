@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.String?>
+<?import javafx.collections.FXCollections?>
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.MenuBar?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.shape.Circle?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<VBox prefHeight="400.0" prefWidth="640.0" xmlns="http://javafx.com/javafx/11" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+    <children>
+        <MenuBar VBox.vgrow="NEVER" />
+        <AnchorPane maxHeight="500.0" maxWidth="640.0" minHeight="500.0" minWidth="640.0" prefHeight="500.0" prefWidth="640.0" VBox.vgrow="ALWAYS">
+            <children>
+                <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#818f9c" height="350.0" layoutX="129.0" layoutY="14.0" stroke="BLACK" strokeType="INSIDE" width="380.0" />
+                <Line endX="277.0" endY="7.62939453125E-6" layoutX="230.0" layoutY="114.0" startX="-100.0" />
+                <Line endX="277.0" endY="7.62939453125E-6" layoutX="230.0" layoutY="264.0" startX="-100.0" />
+                <Line endX="277.0" endY="7.62939453125E-6" layoutX="229.0" layoutY="214.0" startX="-100.0" />
+                <Line endX="277.0" endY="7.62939453125E-6" layoutX="231.0" layoutY="164.0" startX="-100.0" />
+                <Line endX="277.0" endY="7.62939453125E-6" layoutX="230.0" layoutY="314.0" startX="-100.0" />
+                <Text layoutX="144.0" layoutY="39.0" strokeType="OUTSIDE" strokeWidth="0.0" text="6" />
+                <Text layoutX="144.0" layoutY="89.0" strokeType="OUTSIDE" strokeWidth="0.0" text="5" />
+                <Text layoutX="144.0" layoutY="139.0" strokeType="OUTSIDE" strokeWidth="0.0" text="4" />
+                <Text layoutX="144.0" layoutY="189.0" strokeType="OUTSIDE" strokeWidth="0.0" text="3" />
+                <Text layoutX="144.0" layoutY="239.0" strokeType="OUTSIDE" strokeWidth="0.0" text="2" />
+                <Text layoutX="144.0" layoutY="289.0" strokeType="OUTSIDE" strokeWidth="0.0" text="1" />
+                <Text layoutX="144.0" layoutY="339.0" strokeType="OUTSIDE" strokeWidth="0.0" text="0" />
+                <Rectangle fx:id="elevA" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="30.0" layoutX="200.0" layoutY="324.0" stroke="BLACK" strokeType="INSIDE" width="25.0" />
+                <Rectangle fx:id="elevB" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="30.0" layoutX="400.0" layoutY="24.0" stroke="BLACK" strokeType="INSIDE" width="25.0" />
+                <Line endX="277.0" endY="7.62939453125E-6" layoutX="230.0" layoutY="64.0" startX="-100.0" />
+                <Button fx:id="btUPfive" layoutX="300.0" layoutY="70.0" maxHeight="20.0" maxWidth="20.0" minHeight="20.0" minWidth="20.0" mnemonicParsing="false" prefHeight="20.0" prefWidth="20.0" style="-fx-background-color: white;" text="UP">
+                    <cursor>
+                        <Cursor fx:constant="HAND" />
+                    </cursor>
+                    <font>
+                        <Font size="6.0" />
+                    </font>
+                </Button>
+                <Button fx:id="btUPzero" layoutX="300.0" layoutY="320.0" maxHeight="20.0" maxWidth="20.0" minHeight="20.0" minWidth="20.0" mnemonicParsing="false" prefHeight="20.0" prefWidth="20.0" style="-fx-background-color: white;" text="UP">
+                    <cursor>
+                        <Cursor fx:constant="HAND" />
+                    </cursor>
+                    <font>
+                        <Font size="6.0" />
+                    </font>
+                </Button>
+                <Button fx:id="btUPone" layoutX="300.0" layoutY="270.0" maxHeight="20.0" maxWidth="20.0" minHeight="20.0" minWidth="20.0" mnemonicParsing="false" prefHeight="20.0" prefWidth="20.0" style="-fx-background-color: white;" text="UP">
+                    <cursor>
+                        <Cursor fx:constant="HAND" />
+                    </cursor>
+                    <font>
+                        <Font size="6.0" />
+                    </font>
+                </Button>
+                <Button fx:id="btUPtwo" layoutX="300.0" layoutY="220.0" maxHeight="20.0" maxWidth="20.0" minHeight="20.0" minWidth="20.0" mnemonicParsing="false" prefHeight="20.0" prefWidth="20.0" style="-fx-background-color: white;" text="UP">
+                    <cursor>
+                        <Cursor fx:constant="HAND" />
+                    </cursor>
+                    <font>
+                        <Font size="6.0" />
+                    </font>
+                </Button>
+                <Button fx:id="btUPthree" layoutX="300.0" layoutY="170.0" maxHeight="20.0" maxWidth="20.0" minHeight="20.0" minWidth="20.0" mnemonicParsing="false" prefHeight="20.0" prefWidth="20.0" style="-fx-background-color: white;" text="UP">
+                    <cursor>
+                        <Cursor fx:constant="HAND" />
+                    </cursor>
+                    <font>
+                        <Font size="6.0" />
+                    </font>
+                </Button>
+                <Button fx:id="btUPfour" layoutX="300.0" layoutY="120.0" maxHeight="20.0" maxWidth="20.0" minHeight="20.0" minWidth="20.0" mnemonicParsing="false" prefHeight="20.0" prefWidth="20.0" style="-fx-background-color: white;" text="UP">
+                    <cursor>
+                        <Cursor fx:constant="HAND" />
+                    </cursor>
+                    <font>
+                        <Font size="6.0" />
+                    </font>
+                </Button>
+                <Button fx:id="btDWfour" layoutX="300.0" layoutY="140.0" maxHeight="20.0" maxWidth="20.0" minHeight="20.0" minWidth="20.0" mnemonicParsing="false" prefHeight="20.0" prefWidth="20.0" style="-fx-background-color: gray;" text="DW">
+                    <cursor>
+                        <Cursor fx:constant="HAND" />
+                    </cursor>
+                    <font>
+                        <Font size="6.0" />
+                    </font>
+                </Button>
+                <Button fx:id="btDWfive" layoutX="300.0" layoutY="90.0" maxHeight="20.0" maxWidth="20.0" minHeight="20.0" minWidth="20.0" mnemonicParsing="false" prefHeight="20.0" prefWidth="20.0" style="-fx-background-color: gray;" text="DW">
+                    <cursor>
+                        <Cursor fx:constant="HAND" />
+                    </cursor>
+                    <font>
+                        <Font size="6.0" />
+                    </font>
+                </Button>
+                <Button fx:id="btDWthree" layoutX="300.0" layoutY="190.0" maxHeight="20.0" maxWidth="20.0" minHeight="20.0" minWidth="20.0" mnemonicParsing="false" prefHeight="20.0" prefWidth="20.0" style="-fx-background-color: gray;" text="DW">
+                    <cursor>
+                        <Cursor fx:constant="HAND" />
+                    </cursor>
+                    <font>
+                        <Font size="6.0" />
+                    </font>
+                </Button>
+                <Button fx:id="btDWtwo" layoutX="300.0" layoutY="240.0" maxHeight="20.0" maxWidth="20.0" minHeight="20.0" minWidth="20.0" mnemonicParsing="false" prefHeight="20.0" prefWidth="20.0" style="-fx-background-color: gray;" text="DW">
+                    <cursor>
+                        <Cursor fx:constant="HAND" />
+                    </cursor>
+                    <font>
+                        <Font size="6.0" />
+                    </font>
+                </Button>
+                <Button fx:id="btDWone" layoutX="300.0" layoutY="290.0" maxHeight="20.0" maxWidth="20.0" minHeight="20.0" minWidth="20.0" mnemonicParsing="false" prefHeight="20.0" prefWidth="20.0" style="-fx-background-color: gray;" text="DW">
+                    <cursor>
+                        <Cursor fx:constant="HAND" />
+                    </cursor>
+                    <font>
+                        <Font size="6.0" />
+                    </font>
+                </Button>
+                <Button fx:id="btDWsix" layoutX="300.0" layoutY="40.0" maxHeight="20.0" maxWidth="20.0" minHeight="20.0" minWidth="20.0" mnemonicParsing="false" prefHeight="20.0" prefWidth="20.0" style="-fx-background-color: gray;" text="DW">
+                    <cursor>
+                        <Cursor fx:constant="HAND" />
+                    </cursor>
+                    <font>
+                        <Font size="6.0" />
+                    </font>
+                </Button>
+                <Circle fx:id="arUPAfive" fill="WHITE" layoutX="257.0" layoutY="80.0" radius="7.0" stroke="BLACK" strokeType="INSIDE" />
+                <Circle fx:id="arUPAfour" fill="WHITE" layoutX="257.0" layoutY="130.0" radius="7.0" stroke="BLACK" strokeType="INSIDE" />
+                <Circle fx:id="arUPAthree" fill="WHITE" layoutX="257.0" layoutY="180.0" radius="7.0" stroke="BLACK" strokeType="INSIDE" />
+                <Circle fx:id="arUPAtwo" fill="WHITE" layoutX="257.0" layoutY="230.0" radius="7.0" stroke="BLACK" strokeType="INSIDE" />
+                <Circle fx:id="arUPAone" fill="WHITE" layoutX="257.0" layoutY="280.0" radius="7.0" stroke="BLACK" strokeType="INSIDE" />
+                <Circle fx:id="arUPAzero" fill="WHITE" layoutX="257.0" layoutY="330.0" radius="7.0" stroke="BLACK" strokeType="INSIDE" />
+                <Circle fx:id="arDWAsix" fill="#969696" layoutX="257.0" layoutY="50.0" radius="7.0" stroke="BLACK" strokeType="INSIDE" />
+                <Circle fx:id="arDWAfive" fill="#969696" layoutX="257.0" layoutY="100.0" radius="7.0" stroke="BLACK" strokeType="INSIDE" />
+                <Circle fx:id="arDWAfour" fill="#969696" layoutX="257.0" layoutY="150.0" radius="7.0" stroke="BLACK" strokeType="INSIDE" />
+                <Circle fx:id="arDWAthree" fill="#969696" layoutX="257.0" layoutY="200.0" radius="7.0" stroke="BLACK" strokeType="INSIDE" />
+                <Circle fx:id="arDWAtwo" fill="#969696" layoutX="257.0" layoutY="250.0" radius="7.0" stroke="BLACK" strokeType="INSIDE" />
+                <Circle fx:id="arDWAone" fill="#969696" layoutX="257.0" layoutY="300.0" radius="7.0" stroke="BLACK" strokeType="INSIDE" />
+                <Circle fx:id="arUPBfive" fill="WHITE" layoutX="446.0" layoutY="80.0" radius="7.0" stroke="BLACK" strokeType="INSIDE" />
+                <Circle fx:id="arUPBfour" fill="WHITE" layoutX="446.0" layoutY="130.0" radius="7.0" stroke="BLACK" strokeType="INSIDE" />
+                <Circle fx:id="arUPBthree" fill="WHITE" layoutX="446.0" layoutY="180.0" radius="7.0" stroke="BLACK" strokeType="INSIDE" />
+                <Circle fx:id="arUPBtwo" fill="WHITE" layoutX="446.0" layoutY="230.0" radius="7.0" stroke="BLACK" strokeType="INSIDE" />
+                <Circle fx:id="arUPBone" fill="WHITE" layoutX="446.0" layoutY="280.0" radius="7.0" stroke="BLACK" strokeType="INSIDE" />
+                <Circle fx:id="arUPBzero" fill="WHITE" layoutX="446.0" layoutY="330.0" radius="7.0" stroke="BLACK" strokeType="INSIDE" />
+                <Circle fx:id="arDWBsix" fill="#969696" layoutX="446.0" layoutY="50.0" radius="7.0" stroke="BLACK" strokeType="INSIDE" />
+                <Circle fx:id="arDWBfive" fill="#969696" layoutX="446.0" layoutY="100.0" radius="7.0" stroke="BLACK" strokeType="INSIDE" />
+                <Circle fx:id="arDWBfour" fill="#969696" layoutX="446.0" layoutY="150.0" radius="7.0" stroke="BLACK" strokeType="INSIDE" />
+                <Circle fx:id="arDWBthree" fill="#969696" layoutX="446.0" layoutY="200.0" radius="7.0" stroke="BLACK" strokeType="INSIDE" />
+                <Circle fx:id="arDWBtwo" fill="#969696" layoutX="446.0" layoutY="250.0" radius="7.0" stroke="BLACK" strokeType="INSIDE" />
+                <Circle fx:id="arDWBone" fill="#969696" layoutX="446.0" layoutY="300.0" radius="7.0" stroke="BLACK" strokeType="INSIDE" />
+                <ComboBox fx:id="levelCombo" layoutX="235.0" layoutY="387.0" prefWidth="150.0" value="0">
+                    <items>
+                        <FXCollections fx:factory="observableArrayList">
+                            <String fx:value="0" />
+                            <String fx:value="1" />
+                            <String fx:value="2" />
+                            <String fx:value="3" />
+                            <String fx:value="4" />
+                            <String fx:value="5" />
+                            <String fx:value="6" />
+                        </FXCollections>
+                    </items>
+                </ComboBox>
+                <Label layoutX="130.0" layoutY="390.0" prefHeight="20.0" prefWidth="95.0" text="Choose the level" />
+                <Button fx:id="btnGo" disable="true" layoutX="399.0" layoutY="387.0" mnemonicParsing="false" text="GO!" textAlignment="CENTER" />
+            </children>
+        </AnchorPane>
+    </children>
+</VBox>
